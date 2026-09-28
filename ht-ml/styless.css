@@ -1,0 +1,31 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 30px;
+    text-align: center;
+
+}
+.container{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 10px;
+    
+}
+.box1{
+    order:1;
+    flex-grow: 1;
+}
+.box4{
+    order: 1;
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 1;
+}
