@@ -3,19 +3,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head><link rel="stylesheet" href="stylee.css">
 <body>
     <div class="container">
-        <div class="navbar"></div>
+        <div class="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="./brandlogo.png" alt="Bootstrap" width="30" height="24">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">catgerys</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resturonets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Resturonets1</a></li>
+            <li><a class="dropdown-item" href="#">Resturonets2</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">Resturonets3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+        </div>
         <div class="paragrap">
-            <p></p>
-            <button></button>
+            <p>
+                Welcome to Rolex, where timeless taste meets an unforgettable dining experience. Just like the iconic name suggests, we are fully committed to setting the gold standard in culinary excellence, precision, and luxury. Every dish on our curated menu is crafted by expert chefs using the finest, freshest ingredients, ensuring that every second you spend with us is a celebration of flavor. Whether you are stopping by for a casual lunch, a celebratory family dinner, or a special evening out, Rolex offers a sophisticated yet welcoming atmosphere paired with world-class hospitality. Join us today and discover a dining experience where luxury is always on the menu.
+
+            </p>
+            <button>view details</button>
         </div>
         <div class="flex-container">
-            <p></p>
+            <p>Welcome to the Rolex family of restaurants, where exceptional flavor and timeless hospitality are always close by! We are thrilled to serve you across our multiple branches, each designed to bring our signature gold standard of culinary excellence right to your neighborhood. While every single Rolex branch features its own unique, welcoming charm and vibrant atmosphere, you can always count on finding the exact same mouthwatering dishes, freshest ingredients, and world-class service that define our name. No matter which of our doors you walk through, our passionate team is ready to turn your meal into an unforgettable dining experience.</p>
         </div>
-        <div>
-            
+        <div class="box-container">
+    <div class="box">restaurant1 <br>4.5 <br> <button>view details</button></div>
+    <div class="box">restaurant2 <br>3.5 <br> <button>view details</button></div>
+    <div class="box">restaurant3 <br>4.2 <br> <button>view details</button></div>
+        </div>
+        <br>
+        <div class="footor">
+            <div>
+            <p>© 2026 Rolex Restaurants. All Rights Reserved. Crafted with Taste.</p>
+            </div>
         </div>
     </div>
 </body>

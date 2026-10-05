@@ -1,0 +1,47 @@
+.container{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 10px;
+    
+    
+}
+.box-container{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+    
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+.navbar{
+    display: flex;
+    flex-grow: 1;
+}
+.footer{
+      margin-left: 20px;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 10px;
+}
